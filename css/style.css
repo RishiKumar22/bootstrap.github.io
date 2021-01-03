@@ -1,0 +1,222 @@
+@charset "UTF-8";
+
+body {margin: 0px; padding: 0px; box-sizing: border-box;}
+
+h1, h2, h3, h4, h5, h6, p, a, span, form, strong, input, radio, checkbox, textarea, textfield, select, ul, li, ol {margin: 0px; padding: 0px;}
+
+a {text-decoration:none}
+img {border: none;}
+a, img {border: none;}
+
+/****************html tag start*****************/
+header, hgroup, nav, section, article, aside, figure, figcaption, audio, video, footer {margin: 0px; padding: 0px; display:block;}
+
+/****************html tag end*****************/
+
+
+
+
+
+/****************main*****************/
+#main {width: 100%; float: left;}
+#topbanner {width: 100%; float: left;}
+#welcomeid {width: 100%; float: left;}
+#serviceid {width: 100%; float: left;}
+#ourworkid {width: 100%; float: left;}
+#pricingid {width: 100%; float: left;}
+#clintid {width: 100%; float: left;}
+#contactid {width: 100%; float: left;}
+#newsletterid {width: 100%; float: left;}
+#bottomid {width: 100%; float: left;}
+/****************main*****************/
+/****************header start here*****************/
+
+.headsearch {}
+.headsearch input {   }
+.headsearch button { background: #0b011b;  color: #fff ; border: none; }
+.headsearch button:hover { background: #0b011b;  color: #fff  }
+
+.banner { width: 100%; float: left; background: url(../images/BANNER2.jpg) center top no-repeat; background-size:cover; height:auto; 
+padding: 300px 0;background-color: #000; position:relative;    }
+/*.banner:before {content: ""; position: absolute; top:0; bottom: 0; right:0; left: 0; background: #000;  opacity: 0.5}*/
+.info { width: 100%; float: 	  }
+.info  h1 {  color: #fff; text-align: center; font-weight: bold; font-size: 50px }
+.info  p {  color: #fff; text-align: center; font-size: 20px; padding: 0 25%; margin:  0 0  50px 0;}
+
+.infobutton  {width: 100%; float: left; }
+.infobutton ul  {list-style: none; margin: 0px; padding: 0px;}
+.infobutton ul li {float: left; margin: 0 10px ;}
+.infobutton ul li a  { background: #fff; border-radius: 20px; color: #0b011b; padding: 20px 30px;    }
+.infobutton ul li a:hover { background: #0b011b; border-radius: 20px; color: #fff; padding: 20px 30px;box-shadow: 0 0 40px 0 #5e29b3;    }
+
+/****************header end here*****************/
+
+
+/****************welcome start here*****************/
+.welcome { width: 100%; float: left; padding: 150px 0 }
+.welcomehead   {    }
+.welcomehead  h1 { font-size: 50px; color:#0b011b; font-weight: bold;   }
+.welcomehead  p { font-size: 20px; color:#777;    }
+.welcomehead  button { background:#0b011b; color: #fff; padding: 20px 30px;    }
+.welcomehead  button:hover { background:#fff; color: #0b011b; padding: 20px 30px; border:#0b011b solid 1px   }
+
+
+
+/****************welcome end here*****************/
+
+
+/****************service start here*****************/
+
+.servicehead {width: 100%; float: left;  text-align: center; }
+.servicehead h1 {font-size: 50px; color:#0b011b; font-weight: bold; }
+.servicehead p {font-size: 20px; color:#777; }
+
+
+
+.service {width: 100%; float: left; padding: 150px 0 ;background: #f5f5f5;}
+.servicebox {width: 100%; float: left; text-align: center; padding: 50px 0 ; transition: all 1s ease; border-radius: 10px}
+.servicebox a { color: #555; }
+.servicebox h1 { text-transform: uppercase; font-size: 20px; font-weight: bold; }
+.servicebox p {  font-size: 15px; color: #999; }
+.servicebox button { background: #0b011b; color: #fff; padding: 10px 20px;  }
+
+.servicebox:hover  {background: #0b011b; transform: translateY(-50px);}
+.servicebox:hover p  {color: #fff; }
+.servicebox:hover h1  {color: #fff; }
+.servicebox:hover a  {color: #fff; }
+.servicebox:hover button  {color: #0b011b; background: #fff; }
+
+
+
+/****************service end here*****************/
+
+
+/****************our work start here*****************/
+
+.ourwork {width: 100%; float: left; padding: 150px 0 ;}
+.our {width: 100%; float: left; text-align:  center;}
+.our h1 {font-size: 50px; color:#0b011b; font-weight: bold; }
+.our p {font-size: 20px; color:#777; }
+
+.pro { margin: 0 0 30px 0; }
+.gress h1{ text-transform: uppercase; font-size: 20px; }
+
+/****************our work end here*****************/
+
+
+/****************pricing start here*****************/
+
+.ourpricing {width:100%; float: left; padding: 150px 0; background: #0b011b;}
+.price { text-align: center; }
+.price h1 {font-size: 50px; color:#fff; font-weight: bold; }
+.price p {font-size: 20px; color:#fff; }
+
+.check { border-radius:10px; background: #fff;  padding: 20px 0; margin:20px 0; transition: all 0.5s ease; }
+.check h1  {  color:#0b011b; font-size: 30px; text-transform: uppercase; font-weight: bold;}
+.check p  {  color:#777; font-size: 16px; }
+.check ul   {  list-style: none; margin: 0px; padding: 0px; }
+.check ul li  { font-size: 15px;margin: 15px 0;  }
+.check ul li a  {  font-size: 13px; color:#5e29b3;  }
+.check  button  {  color:#fff; font-size: 17px; background:#5e29b3; padding: 20px 40px ; margin: 40px 0  0 0; }
+.check  button:hover  {  color:#5e29b3; border:#5e29b3 solid 1px;background:#fff;   }
+.check:hover { box-shadow: 0 0 40px 0 #5e29b3; transform: translateY(-30px);  }
+
+
+/****************pricing end here*****************/
+
+
+/****************clint say start here*****************/
+.clint {width: 100%; float:left; padding: 150px 0 ; background: #5e29b3;}
+.clinthead { text-align: center;; }
+.clinthead h1 {font-size: 50px; color:#fff; font-weight: bold; }
+.clinthead p {font-size: 20px; color:#fff; }
+
+.say {}
+.say img {  }
+.say h1 { font-size: 20px; text-transform: uppercase  }
+.say p { font-size: 22px; color: #fff; font-style: italic;  }
+
+/****************clint say end here*****************/
+
+
+/****************contact form start here*****************/
+.contact {width: 100%; float:left; padding: 150px 0 ; }
+.contacthead {width: 100%; float:left; }
+.contacthead h1 {font-size: 50px; color:#0b011b; font-weight: bold; }
+.contacthead p {font-size: 20px; color:#777; }
+
+.form-btn button {background:#0b011b; padding:20px 30px; display: inline-block;width: 50%; color: #fff; margin: 0 25%;}
+.form-btn input {background:#f2f2f2; border: none;}
+
+/****************contact form end here*****************/
+
+
+/****************newsletter start here*****************/
+.newsletter {width: 100%; float: left; background: #0b011b; padding: 150px 0;}
+.newsletterhead {width: 100%; float: left;}
+.newsletterhead h1 {font-size: 50px; color:#fff; font-weight: bold; }
+.newsletterhead p {font-size: 20px; color:#fff; }
+
+.news {width: 100%; }
+.news form-inline {}
+.news input { width: 100% !important; padding: 30px 20px;}
+.news button { width: 100% !important; background: #5e29b3; color:#fff;padding: 20px 0; }
+.news button:hover {  color:#fff; }
+
+/****************newsletter end here*****************/
+
+
+/****************footer start here*****************/
+.bottom {width: 100%; float: left;  padding: 150px 0;}
+.bottomtop { width: 100%; float: left; }
+.bottomtop h1 { color:#0b011b; font-size:30px; text-transform:uppercase!important; }
+.bottomtop p { color:#777; font-size:15px; padding: 0 20%; }
+.bottomtop p span{ color:#222; font-size: 20px }
+
+
+.link {width: 100%; float: left; padding: 30px 0; text-align:center; }
+.link ul {list-style:none; margin: 0px; padding: 0px;}
+.link ul li {display: inline-block; margin: 0 20px;}
+.link ul li a { font-size: 17px; color: #222; display: inline-block; text-decoration:none; font-weight:600; }
+.link ul li a:hover {  color: #0b011b;  }
+
+.social { width: 100%; float: left; text-align: center   }
+.social ul { list-style:none; margin:0px; padding: 0px;}
+.social ul li {  margin: 0 20px; display:inline-block  }
+.social ul li a {  background: #f2f2f2;  width:50px; height: 50px; display:inline-block; display: flex; justify-content: space-around; align-items: center;
+border-radius: 50px; color:#222; text-decoration:none;  }
+.social ul li a:hover {color: #222;}
+
+.copy {width:100%; float:left;background: #0b011b; width:100%;}
+.copyright  {  }
+.copyright h1 { color: #fff; text-align: center; font-size: 17px; }
+
+
+/****************footer end here*****************/
+
+
+/****************media query  start here*****************/
+
+@media (max-width: 576px) 
+
+
+
+{
+.banner { width: 100%; float: left; background: url(../images/BANNER2.jpg) center top no-repeat; background-size:cover; height:auto; 
+padding: 100px 0;background-color: #000; position:relative;   }
+.info  h1 {  color: #fff; text-align: center; font-weight: bold; font-size: 40px }
+.info  p {  color: #fff; text-align: center; font-size: 20px; padding: 0 15%; margin:  0 0  50px 0;}
+
+
+
+}
+
+/****************media query  end here*****************/
+
+
+
+
+
+
+
+
